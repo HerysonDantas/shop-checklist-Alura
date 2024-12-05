@@ -30,11 +30,13 @@ main {
     flex-direction: column;
     display: flex;
     gap: 24px;
-    width: 440px;
+    
+    width: 328px;
     align-items: center;
     background-color: var(--neutro);
-    padding: 56px;
+    padding: 56px 16px;
     border-radius: 16px;
+    margin-bottom: 64px;
    
 }
 
@@ -94,6 +96,7 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    
 }
 
 .item-lista-container {
@@ -163,4 +166,18 @@ ul, #container-lista-de-compras, #container-lista-comprados {
     background-color: transparent;
     border: none;
 
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 20VH;
+    color: var(--neutro);
+}
+
+@media screen and (min-width: 720px) {
+    main {
+        width: 440px;
+        padding: 56px;       
+    }   
 }
